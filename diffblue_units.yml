@@ -1,0 +1,6 @@
+units:
+  - target:
+    - dir: target/classes
+      file: com/diffblue/javademo/FlexmarkUtils.class
+      sourceDir: src/main/java
+      sourceFile: com/diffblue/javademo/FlexmarkUtils.java
