@@ -10,7 +10,7 @@ public class IncludeTest {
 	}
 
 	public boolean needsBar(String input){
-		if(input.equals("bar")){
+		if(input.equals("youll_never_guess_me")){
 			return true;
 		} else {
 			return false;

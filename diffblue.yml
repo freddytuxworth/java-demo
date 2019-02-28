@@ -12,6 +12,7 @@ phases:
     cover-function-only: false
     cover-include-pattern: .*Bar.*
     string-input-value: notbar
+
 units:
   - target:
     - dir: target/classes
