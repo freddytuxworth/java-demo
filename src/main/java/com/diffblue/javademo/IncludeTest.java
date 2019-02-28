@@ -3,7 +3,7 @@ package com.diffblue.javademo;
 public class IncludeTest {
 
 	public boolean needsFoo(String input){
-		if(input == "foo"){
+		if(input.equals("foo")){
 			return true;
 		} else {
 			return false;
@@ -11,7 +11,7 @@ public class IncludeTest {
 	}
 
 	public boolean needsBar(String input){
-		if(input == "bar"){
+		if(input.equals("bar")){
 			return true;
 		} else {
 			return false;
