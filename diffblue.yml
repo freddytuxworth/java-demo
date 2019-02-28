@@ -5,7 +5,7 @@ phases:
   cbmcArguments:
     cover-function-only: false
     cover-include-pattern: .*Foo.*
-    string-input-value: foo
+    string-input-value: youll_never_guess_me
 -
   timeout: 60
   cbmcArguments:
