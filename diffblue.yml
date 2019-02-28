@@ -1,17 +1,17 @@
-cbmcArguments: {java-generate-no-comments: true, no-trivial-tests: true}
+cbmcArguments: {}
 phases:
 -
   timeout: 60
   cbmcArguments:
     cover-function-only: false
     cover-include-pattern: .*Foo.*
-    string-input-value: "foo"
+    string-input-value: foo
 -
   timeout: 60
   cbmcArguments:
     cover-function-only: false
     cover-include-pattern: .*Bar.*
-    string-input-value: "notbar"
+    string-input-value: notbar
 units:
   - target:
     - dir: target/classes
