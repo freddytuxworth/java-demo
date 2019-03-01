@@ -1,6 +1,6 @@
 units:
   - target:
     - dir: target/classes
-      file: com/diffblue/javademo/FlexmarkUtils.class
+      file: com/diffblue/javademo/StringUtils.class
       sourceDir: src/main/java
-      sourceFile: com/diffblue/javademo/FlexmarkUtils.java
+      sourceFile: com/diffblue/javademo/StringUtils.java
