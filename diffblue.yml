@@ -24,6 +24,6 @@ phases:
 units:
   - target:
     - dir: target/classes
-      file: com/diffblue/javademo/StringUtils.class
+      file: com/diffblue/javademo/IncludeTest.class
       sourceDir: src/main/java
-      sourceFile: com/diffblue/javademo/StringUtils.java
+      sourceFile: com/diffblue/javademo/IncludeTest.java
