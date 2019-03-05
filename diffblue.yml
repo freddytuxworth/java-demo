@@ -30,7 +30,7 @@ units:
       sourceDir: src/main/java
       sourceFile: com/diffblue/javademo/ClassB.java
   # Target Coverage: Unknown %
-  - target:
+    context:
     - dir: target/classes
       file: com/diffblue/javademo/ClassA.class
       sourceDir: src/main/java
