@@ -2,6 +2,7 @@
 cbmcArguments:
   java-generate-no-comments: true
   no-trivial-tests: true
+  java-load-class: ["@
 phases:
 -
   timeout: 20
@@ -22,17 +23,15 @@ phases:
 -
   timeout: 0
 units:
-units:
   # Target Coverage: Unknown %
   - target:
     - dir: target/classes
-      file: com/diffblue/javademo/IncludeTest.class
+      file: com/diffblue/javademo/ClassB.class
       sourceDir: src/main/java
-      sourceFile: com/diffblue/javademo/IncludeTest.java
-    # Child of IncludeTest.class
-    # Child Coverage: Unknown %
+      sourceFile: com/diffblue/javademo/ClassB.java
+  # Target Coverage: Unknown %
+  - target:
     - dir: target/classes
-      file: com/diffblue/importme/ImportMe.class
+      file: com/diffblue/javademo/ClassA.class
       sourceDir: src/main/java
-      sourceFile: com/diffblue/importme/ImportMe.java
-    - dir: target/classes
+      sourceFile: com/diffblue/javademo/ClassA.java
