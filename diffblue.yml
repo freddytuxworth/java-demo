@@ -2,26 +2,6 @@
 cbmcArguments:
   java-generate-no-comments: true
   no-trivial-tests: true
-  java-load-class: ["@
-phases:
--
-  timeout: 20
-  cbmcArguments:
-#    max-nondet-string-length: 20;
-    string-input-value: [1, sample, test string]
-    max-nondet-array-length: 10
-    java-assume-inputs-non-null: true
-    unwind: 100
-    refine: true
--
-  timeout: 20
-  cbmcArguments:
-    max-nondet-string-length: 20;
-    max-nondet-array-length: 20
-    string-printable: true
-    unwind: 100
--
-  timeout: 0
 units:
   # Target Coverage: Unknown %
   - target:
@@ -30,8 +10,8 @@ units:
       sourceDir: src/main/java
       sourceFile: com/diffblue/javademo/ClassB.java
   # Target Coverage: Unknown %
-    context:
+  - target:
     - dir: target/classes
-      file: com/diffblue/javademo/ClassA.class
+      file: com/diffblue/otherclass/ClassA.class
       sourceDir: src/main/java
-      sourceFile: com/diffblue/javademo/ClassA.java
+      sourceFile: com/diffblue/otherclass/ClassA.java

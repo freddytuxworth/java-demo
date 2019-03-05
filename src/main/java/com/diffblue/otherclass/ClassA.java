@@ -1,4 +1,4 @@
-package com.diffblue.javademo;
+package com.diffblue.otherclass;
 
 public class ClassA {
 	private int a = 0;
