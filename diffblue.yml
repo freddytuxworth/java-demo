@@ -1,4 +1,6 @@
+buildCmd: true
+testCmd: true
+classpathCmd: echo "`find / "$PWD" -name "jd.jar"`:" | head -1
 cbmcArguments:
-  # Because tic-tac-toe has 9 squares, we need to unwind the loops 10 times
-  # This will be auto-detected in a future version
+  java-generate-no-comments: true
   max-nondet-array-length: 10
